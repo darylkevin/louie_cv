@@ -174,7 +174,7 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Training and Seminars"
+        title = "Seminars and Trainings"
         # intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
