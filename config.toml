@@ -1,6 +1,6 @@
-baseurl = "http://example.org/"
+baseurl = ""
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Louielyn Panganiban Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -13,7 +13,7 @@ disable404 = true
 
 # Meta
     description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    author = "Daryl Galvez"
 
 # Theme styles
 
@@ -22,15 +22,15 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-2.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Maria Louielyn Panganiban"
+        tagline = "Doctor of Dental Medicine"
+        avatar = "fblou1.jpg.png"
 
     # Contact section
     [params.contact]
@@ -39,38 +39,38 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: louielyn.pananiban@gmail.com"
+        title = "louielyn.panganiban@gmail.com"
 
-        [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        # [[params.contact.list]]
+        # class = "phone"
+        # icon = "fa-phone"
+        # url = "tel:+1234567890"
+        # title = "+1234567890"
 
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        # [[params.contact.list]]
+        # class = "website"
+        # icon = "fa-globe"
+        # url = "//portfoliosite.com"
+        # title = "portfoliosite.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/louiepanganiban"
+        title = "linkedin.com/in/louiepanganiban"
 
-        [[params.contact.list]]
-        class = "github"
-        icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        # [[params.contact.list]]
+        # class = "github"
+        # icon = "fa-github"
+        # url = "//github.com/username"
+        # title = "github.com/username"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        # [[params.contact.list]]
+        # class = "twitter"
+        # icon = "fa-twitter"
+        # url = "//twitter.com/username"
+        # title = "@twittername"
 
     # Education section
     [params.education]
