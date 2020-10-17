@@ -178,29 +178,53 @@ disable404 = true
         # intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
+        title = "FACE Philosophy: MULTIDISCIPLINARY ORTHODONTICS MADE SIMPLE: OCCLUSSION, TMJ, AND CRANIOFACIAL PAIN"
+        # url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "Philippine Dental Association - Philippine Association of Functional Jaw Orthopedics - TMJ Inc. (Aug 2019)"
+
+        [[params.projects.list]]
+        title = "Temporary Anchorage Devices Workshop (TADS)"
+        # url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Biomechanical Institute for Orthodontics (Nov 2018 - Dec 2018)"
+
+        [[params.projects.list]]
+        title = "Air Aligner Training and Certification Course (Air Nivol)"
+        # url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "(Oct 2017)"
+
+        [[params.projects.list]]
+        title = "Preceptor Program: Gnathology Approach to Dentistry and TMD Pain Management"
+        # url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Philippine Gnathological Forum Inc. (2016)"
+
+        [[params.projects.list]]
+        title = "Preceptorship Program in Orthodontics-Dentistry"
+        # url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "(Aug 2014 - Aug 2015)"
+
+        [[params.projects.list]]
         title = "Externship Training Program in Oral Surgery"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        # url = "https://github.com/aerohub/hugrid"
+        tagline = "UP-PGH Department of Dentistry (Oct 2014 - Jun 2015)"
 
-        [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+    # Research section
+    [params.research]
+        enable = true
+        icon = "fa-archive"
+        title = "Research and Publications"
+        intro = "A list of research and publications I am involved in."
 
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        [[params.research.list]]
+        title = "Formulation of Toothpaste Tablet Containing Commerical Grade Papain As Teeth Whitening and Anti Pellicle, and Silica as an Abrasive"
+        # url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "(Collis, Guanizo, Moro, Lapuz, Panganiban - 2019, unpublished, co-author)"
 
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        [[params.research.list]]
+        title = "The Effect of Cementation Technique and Types of Resin Cements on the Shear Bond Strength of Indirect Composite 'Inlays'"
+        # url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = """(2013, unpublished). The paper was presented last Feb 2014 in the Poster Abstract
+                Exhibit in the 16th Anniversary of the National Institutes of Health, 12th UP Manila Science
+                and Technology Week, and 5th Anniversary of the Metro Manila Health Research and Development Consortium."""
 
     # Skills section
     [params.skills]
