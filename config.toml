@@ -48,11 +48,17 @@ disable404 = true
         # url = "tel:+1234567890"
         # title = "+1234567890"
 
-        # [[params.contact.list]]
-        # class = "website"
-        # icon = "fa-globe"
-        # url = "//portfoliosite.com"
-        # title = "portfoliosite.com"
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//luxesmilesdentalcenter.com"
+        title = "luxesmilesdentalcenter.com"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//luxesmilesdentalcenter.netlify.app"
+        title = "luxesmilesdentalcenter.netlify.app"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -78,14 +84,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Doctor of Dental Medicine"
+        college = "University of the Philippines - Manila"
+        dates = "2007 - 2013"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "High School Diploma"
+        college = "Bristol Manila Central University"
+        dates = "2002 - 2007"
 
     # Languages section
     [params.language]
@@ -93,16 +99,16 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Filipino - Tagalog"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "English"
         level = "Professional"
 
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+        # [[params.language.list]]
+        # language = "Russian"
+        # level = "Professional"
 
     # Interests section
     [params.interests]
@@ -110,13 +116,13 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
-
-        [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Cycling"
 
         [[params.interests.list]]
         interest = "Cooking"
+
+        [[params.interests.list]]
+        interest = "Photography"
 
 # Main body sections
 
@@ -127,7 +133,12 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = """**I am a dentist** and I provide my patients with professional dental care which
+                    stems from my years of education and practical training obtained from my university
+                    and from various seminars and lectures. I am well versed with various dental procedures
+                    ranging from restorative, prosthodontic, endodontic, and periodontic procedures. I have
+                    also received training for oral surgery, management of immune-compromised patients, TMJ
+                    pain management, and orthodontics."""
 
     # Experiences section
     [params.experiences]
@@ -136,32 +147,38 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Dental Consultant"
+        dates = "2018 - Present"
+        company = "Dain Dental Clinic"
+        # details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Dentist/ Owner"
+        dates = "2016 - Present"
+        company = "Luxe Smiles Dental Center"
+        # details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Head Dentist/ Owner"
+        dates = "2014 - Present"
+        company = "Panganiban Dental Clinic"
+        # details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Professor and Clinical Instructor"
+        dates = "2015 - 2020"
+        company = "Centro Escolar University - Manila"
+        details = "Faculty member in Department of Endodontics, Department of Periodontics, Department of Prosthodontics, and Department of Surgery"
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        title = "Training and Seminars"
+        # intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
+        title = "Externship Training Program in Oral Surgery"
         url = "https://github.com/aerohub/hugrid"
         tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
 
@@ -192,28 +209,28 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
+        skill = "Oral Surgery"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "Orthodontics"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
+        skill = "Hospital and Clinic Management"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
+        skill = "Temporary Anchorage Devices"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "TMJ Pain Management"
+        level = "95%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "Photography and Editing"
+        level = "80%"
 
     # Footer section
 
